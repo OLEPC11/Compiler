@@ -1,0 +1,38 @@
+import React from 'react';
+import { useState } from 'react';
+
+function App() {
+  const [selectedProduct, setSelectedProduct] = useState(null);
+  const products = [
+    { id: 1, name: 'Product 1', image: '/path/to/image1.jpg' },
+    { id: 2, name: 'Product 2', image: '/path/to/image2.jpg' },
+     { id: 3, name: 'Product 3', image: '/path/to/image3.jpg' },
+  ];
+
+  const selectProduct = (product) => {
+    setSelectedProduct(product);
+  };
+
+  return (
+    <div style={{ display: 'flex', width: '100%' }}>
+      <div style={{ width: '66%' }}>
+        {selectedProduct  (
+          <div>
+            <h2>{selectedProduct.name}</h2>
+            <img src={selectedProduct.image} alt={selectedProduct.name} style={{ width: '100%' }} />
+          </div>
+        )}
+      </div>
+      <div style={{ width: '33%' }}>
+        {products.map(product => (
+          <div key={product.id} onClick={() => selectProduct(product)} style={{ cursor: 'pointer' }}>
+            <img src={product.image} alt={product.name} style={{ width: '50px', height: '50px' }} />
+            <p>{product.name}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default App;

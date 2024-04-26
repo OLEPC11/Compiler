@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4181817b-cf4c-4ad6-b4ca-69720c2c24af" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Compiler For Season 1" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2aG0FfYg4QgHuUtRPXhL2qKwoDj" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/compiler-design-master" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java projects\Compiler Projects\Compiler For Season 1\src\Antlar" />
+      <recent name="E:\java peojects\Compiler Projects\Compiler For Season 1\src\Antlar" />
+      <recent name="E:\java peojects\Compiler Projects\Compiler For Season 1\src\Antlar\Antlar" />
+      <recent name="E:\java peojects\Compiler Projects\Compiler For Season 1\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Compiler For Season 1" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4181817b-cf4c-4ad6-b4ca-69720c2c24af" name="Default Changelist" comment="" />
+      <created>1703929505324</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703929505324</updated>
+      <workItem from="1703929509302" duration="22086000" />
+      <workItem from="1704007121420" duration="7581000" />
+      <workItem from="1704033621300" duration="10048000" />
+      <workItem from="1704050110695" duration="924000" />
+      <workItem from="1704110362231" duration="371000" />
+      <workItem from="1704123541547" duration="835000" />
+      <workItem from="1704128560420" duration="3463000" />
+      <workItem from="1704132110957" duration="1325000" />
+      <workItem from="1704135043469" duration="5557000" />
+      <workItem from="1704169754165" duration="14440000" />
+      <workItem from="1704203721372" duration="13383000" />
+      <workItem from="1704273078451" duration="4408000" />
+      <workItem from="1704277735696" duration="148000" />
+      <workItem from="1704283422723" duration="4799000" />
+      <workItem from="1704362266643" duration="741000" />
+      <workItem from="1704374379746" duration="2683000" />
+      <workItem from="1704429962823" duration="4499000" />
+      <workItem from="1704443917481" duration="4106000" />
+      <workItem from="1704449775844" duration="1374000" />
+      <workItem from="1704464525402" duration="266000" />
+      <workItem from="1704464990112" duration="9267000" />
+      <workItem from="1704481366175" duration="6105000" />
+      <workItem from="1704490380460" duration="234000" />
+      <workItem from="1704490691050" duration="15000" />
+      <workItem from="1704527624530" duration="1227000" />
+      <workItem from="1704533047437" duration="1083000" />
+      <workItem from="1704537345144" duration="8243000" />
+      <workItem from="1704555426984" duration="4142000" />
+      <workItem from="1704560250277" duration="38000" />
+      <workItem from="1704564567908" duration="3224000" />
+      <workItem from="1704572134529" duration="1034000" />
+      <workItem from="1704615058355" duration="1249000" />
+      <workItem from="1704620368429" duration="3489000" />
+      <workItem from="1704623916475" duration="2151000" />
+      <workItem from="1704631128777" duration="2536000" />
+      <workItem from="1704641664558" duration="4654000" />
+      <workItem from="1704648292933" duration="633000" />
+      <workItem from="1704689081276" duration="4962000" />
+      <workItem from="1704703994696" duration="924000" />
+      <workItem from="1704705288859" duration="300000" />
+      <workItem from="1710504793626" duration="502000" />
+      <workItem from="1711273721843" duration="943000" />
+      <workItem from="1711443278996" duration="1785000" />
+      <workItem from="1711616965008" duration="399000" />
+      <workItem from="1714135918673" duration="3748000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
