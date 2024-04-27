@@ -34,9 +34,11 @@ public class UseStateHook {
         if (UseState != null) {
             System.out.print(UseState + " ");
         }
+        System.out.print("(");
         if (singleExpression != null) {
             singleExpression.PrintAst();
         }
+        System.out.print(")");
         if(eos!=null){
             eos.PrintAst();
         }
