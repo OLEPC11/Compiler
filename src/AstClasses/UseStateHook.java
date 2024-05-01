@@ -1,5 +1,8 @@
 package AstClasses;
 
+import SymbolTable.Symbol;
+import SymbolTable.SymbolTable;
+
 public class UseStateHook {
 
     String UseState;
@@ -42,5 +45,25 @@ public class UseStateHook {
         if(eos!=null){
             eos.PrintAst();
         }
+        AddToSymbolTable();
+    }
+    public String getValue(){
+        if(UseState!=null) {
+            return UseState;
+        }
+        if(singleExpression !=null){
+            return  singleExpression.getValue();
+        }
+        return "No Value";
+    }
+    public void AddToSymbolTable(){
+        Symbol symbol=new Symbol();
+        if(UseState!=null){
+            symbol.setName(UseState);
+        }
+        if(singleExpression!=null){
+            symbol.setValue(singleExpression.getValue());
+        }
+        SymbolTable.list.add(symbol);
     }
 }

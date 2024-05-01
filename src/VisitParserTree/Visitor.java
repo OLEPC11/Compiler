@@ -3,7 +3,12 @@ import Antlar.JsxParser;
 import Antlar.JsxParserBaseVisitor;
 import AstClasses.*;
 
+
+import java.util.ArrayList;
+
 public class Visitor extends JsxParserBaseVisitor {
+
+
     @Override
     public Program visitProgram(JsxParser.ProgramContext ctx) {
         Program program =new Program();
@@ -244,6 +249,7 @@ public class Visitor extends JsxParserBaseVisitor {
     @Override
     public VariableDeclarationList visitVariableDeclarationList(JsxParser.VariableDeclarationListContext ctx) {
         VariableDeclarationList variableDeclarationList=new VariableDeclarationList();
+
         if(ctx.varModifier()!=null){
             variableDeclarationList.setVarModifier(visitVarModifier(ctx.varModifier()));
         }
@@ -254,6 +260,7 @@ public class Visitor extends JsxParserBaseVisitor {
         }
         return variableDeclarationList;
     }
+
 
     @Override
     public VariableDeclaration visitVariableDeclaration(JsxParser.VariableDeclarationContext ctx) {
@@ -313,9 +320,11 @@ public class Visitor extends JsxParserBaseVisitor {
         VarModifier varModifier=new VarModifier();
         if(ctx.Const()!=null){
             varModifier.setConst(ctx.Const().getText());
+
         }
         if(ctx.Var()!=null){
             varModifier.setVar(ctx.Var().getText());
+
         }
         if(ctx.let_()!=null){
             varModifier.setLet(visitLet_(ctx.let_()));
@@ -936,6 +945,7 @@ public class Visitor extends JsxParserBaseVisitor {
         Assignable assignable=new Assignable();
         if(ctx.arrayLiteral()!=null){
             assignable.setArrayLiteral(visitArrayLiteral(ctx.arrayLiteral()));
+
         }
         if(ctx.identifier()!=null){
             assignable.setIdentifier(visitIdentifier(ctx.identifier()));
@@ -1106,10 +1116,13 @@ public class Visitor extends JsxParserBaseVisitor {
         Identifier identifier=new Identifier();
         if(ctx.Async()!=null){
             identifier.setIdentifier(ctx.Async().getText());
+
         }
         if (ctx.Identifier() != null) {
             identifier.setIdentifier(ctx.Identifier().getText());
+
         }
+
         return identifier;
     }
 
@@ -1125,6 +1138,7 @@ public class Visitor extends JsxParserBaseVisitor {
     @Override
     public Keyword visitKeyword(JsxParser.KeywordContext ctx) {
         Keyword keyword=new Keyword();
+
         if(ctx.Default()!=null){
             keyword.setKeyword(ctx.Default().getText());
         }

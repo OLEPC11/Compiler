@@ -30,7 +30,7 @@ public class FormalParameterArg {
             System.out.print("="+" ");
             singleExpression.PrintAst();
         }
-        AddToSymbolTable();
+       // AddToSymbolTable();
     }
     public String getValue(){
         if(assignable!=null){
@@ -41,14 +41,14 @@ public class FormalParameterArg {
         }
         return "No Value";
     }
-    public void AddToSymbolTable(){
-        Symbol symbol=new Symbol();
-        if(assignable!=null){
-            symbol.setName(assignable.getValue());
-        }
-        if(singleExpression!=null){
-            symbol.setValue(singleExpression.getValue());
-        }
-        SymbolTable.list.add(symbol);
-    }
+//    public void AddToSymbolTable(){
+//        Symbol symbol=new Symbol();
+//        if(assignable!=null){
+//            symbol.setName(assignable.getValue());
+//        }
+//        if(singleExpression!=null){
+//            symbol.setValue(singleExpression.getValue());
+//        }
+//        SymbolTable.list.add(symbol);
+//    }
 }

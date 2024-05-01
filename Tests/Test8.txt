@@ -1,0 +1,3 @@
+const ola = 9;
+var emad=0;
+useEffect(0);

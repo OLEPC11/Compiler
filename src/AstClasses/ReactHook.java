@@ -1,5 +1,8 @@
 package AstClasses;
 
+import SymbolTable.Symbol;
+import SymbolTable.SymbolTable;
+
 public class ReactHook {
     UseEffectHook useEffectHook;
     UseRefHook useRefHook;
@@ -38,5 +41,18 @@ public class ReactHook {
         if(useStateHook!=null){
             useStateHook.PrintAst();
         }
+    }
+
+    public String getValue(){
+        if(useEffectHook!=null) {
+            return useEffectHook.getValue();
+        }
+        if(useRefHook!=null) {
+            return useRefHook.getValue();
+        }
+        if(useStateHook!=null) {
+            return useStateHook.getValue();
+        }
+        return "No Value";
     }
 }

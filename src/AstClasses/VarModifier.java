@@ -1,5 +1,8 @@
 package AstClasses;
 
+import SymbolTable.Symbol;
+import SymbolTable.SymbolTable;
+
 public class VarModifier {
     String Var;
     Let let;
@@ -45,6 +48,9 @@ public class VarModifier {
         }
         if(Const!=null){
             return Const+" ";
+        }
+        if(let!=null){
+            return let+" ";
         }
         return "No Value";
     }

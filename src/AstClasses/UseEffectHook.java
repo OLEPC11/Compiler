@@ -1,4 +1,6 @@
 package AstClasses;
+import SymbolTable.Symbol;
+import SymbolTable.SymbolTable;
 
 import java.util.ArrayList;
 
@@ -34,5 +36,33 @@ public class UseEffectHook {
                 expressionSequence.PrintAst();
             }
         }
+        AddToSymbolTable();
+    }
+    StringBuilder stringBuilder=new StringBuilder();
+    String value;
+    public String getValue(){
+        if(useEffect!=null) {
+            return useEffect;
+        }
+        if(expressionSequences!=null){
+            for (ExpressionSequence expressionSequence:expressionSequences) {
+                stringBuilder.append(expressionSequence.getValue());
+            }
+            value=stringBuilder.toString();
+            return value;
+        }
+        return "No Value";
+    }
+    public void AddToSymbolTable(){
+        Symbol symbol=new Symbol();
+        if(useEffect!=null){
+            symbol.setName(useEffect);
+        }
+        if(expressionSequences!=null){
+            for(int i=0;i<expressionSequences.size();i++){
+            symbol.setValue(expressionSequences.get(i).getValue());
+            }
+        }
+        SymbolTable.list.add(symbol);
     }
 }
