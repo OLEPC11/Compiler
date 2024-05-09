@@ -35,4 +35,9 @@ public class IdentifierName {
             return "No Value";
         }
     }
+    public void GenCode(){
+        if(identifier!=null){
+            identifier.GenCode();
+        }
+    }
 }

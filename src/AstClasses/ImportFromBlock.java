@@ -76,4 +76,15 @@ public class ImportFromBlock {
             eos.PrintAst();
         }
     }
+    public void GenCode(){
+       if(importNamespace!=null){
+           importNamespace.GenCode();
+       }
+       if(importFrom!=null){
+           importFrom.GenCode();
+       }
+       if(eos!=null){
+           eos.GenCode();
+       }
+    }
 }

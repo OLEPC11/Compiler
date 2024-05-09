@@ -24,5 +24,10 @@ public class Identifier {
             return "No Value";
         }
     }
+    public void GenCode(){
+        if(identifier!=null){
+            System.err.print(identifier);
+        }
+    }
 
 }

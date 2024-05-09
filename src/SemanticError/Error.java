@@ -10,7 +10,7 @@ public class Error extends BaseErrorListener {
         hasError=true;
         List<String >stack=((Parser)recognizer).getRuleInvocationStack();
         Collections.reverse(stack);
-        System.err.println("Semantic Error");
+        System.err.println("Error");
         System.err.println("Token"+"\""+((Token)offendingSymbol).getText()+"\""+"(Line "+line+", column "+(charPositionInLine +1)+")"+": "+msg);
         System.err.println(stack);
     }

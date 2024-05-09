@@ -39,7 +39,6 @@ Function_                  :'function';
 UseEffect                  :'useEffect';
 UseRef                     : 'useRef';
 UseState                   : 'useState';
-
 Ellipsis                   : '...';
 Identifier: IdentifierStart IdentifierPart*;
 WS: [ \t\r\n]+ -> skip;

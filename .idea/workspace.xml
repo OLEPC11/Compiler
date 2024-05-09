@@ -2,25 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4181817b-cf4c-4ad6-b4ca-69720c2c24af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SemanticError/Error.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/FormalParameterArg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/FormalParameterArg.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ReactHook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ReactHook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/UseEffectHook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/UseEffectHook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/UseRefHook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/UseRefHook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/UseStateHook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/UseStateHook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/VarModifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/VarModifier.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/SymbolTable/SymbolTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/SymbolTable/SymbolTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Test8.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Test8.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/Antlar/JsxLexer.g4" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/Antlar/JsxLexer.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Eos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Eos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Identifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Identifier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/IdentifierName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/IdentifierName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ImportFrom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ImportFrom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ImportFromBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ImportFromBlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ImportNamespace.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ImportNamespace.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ImportStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ImportStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/SemanticError/Error.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/SemanticError/Error.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/VisitParserTree/Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/VisitParserTree/Visitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AstClasses/FormalParameterArg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/FormalParameterArg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AstClasses/ReactHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/ReactHook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AstClasses/UseEffectHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/UseEffectHook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AstClasses/UseRefHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/UseRefHook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AstClasses/UseStateHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/UseStateHook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AstClasses/VarModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/VarModifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SymbolTable/SymbolTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SymbolTable/SymbolTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VisitParserTree/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VisitParserTree/Visitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Antlar/JsxLexer.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/Antlar/JsxLexer.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AstClasses/Eos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/Eos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AstClasses/Identifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/Identifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AstClasses/IdentifierName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/IdentifierName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AstClasses/ImportFrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/ImportFrom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AstClasses/ImportFromBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/ImportFromBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AstClasses/ImportNamespace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/ImportNamespace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AstClasses/ImportStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/ImportStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SemanticError/Error.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SemanticError/Error.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/compiler project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Algorithm Trees/BinaryTrees" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -171,7 +174,16 @@
       <workItem from="1714414529980" duration="53000" />
       <workItem from="1714543104703" duration="2640000" />
       <workItem from="1714550307117" duration="6947000" />
-      <workItem from="1714579546999" duration="803000" />
+      <workItem from="1714579546999" duration="1403000" />
+      <workItem from="1714645940229" duration="124000" />
+      <workItem from="1715065998624" duration="223000" />
+      <workItem from="1715076864311" duration="121000" />
+      <workItem from="1715106222864" duration="46000" />
+      <workItem from="1715172534327" duration="894000" />
+      <workItem from="1715177954437" duration="535000" />
+      <workItem from="1715252699612" duration="1648000" />
+      <workItem from="1715266485143" duration="2756000" />
+      <workItem from="1715280239800" duration="1587000" />
     </task>
     <servers />
   </component>
@@ -190,5 +202,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>

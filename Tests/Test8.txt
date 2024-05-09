@@ -1,3 +1,1 @@
-const ola = 9;
-var emad=0;
-useEffect(0);
+import chickenImage from "./images/chicken.webp";

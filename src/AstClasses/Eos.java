@@ -27,4 +27,8 @@ public class Eos {
             System.out.println(semiColon+" ");
         }
     }
+    public void GenCode(){
+        if(semiColon!=null){
+            System.err.print(semiColon);
+        }}
 }

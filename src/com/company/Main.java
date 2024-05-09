@@ -28,11 +28,12 @@ public class Main {
                 System.exit(0);
             }
             else{
-            ParseTree tree = parser.program();
+            ParseTree tree = parser.importStatement();
             Visitor visitor = new Visitor();
-            Program startProgram = (Program) visitor.visit(tree);
+            ImportStatement startProgram = (ImportStatement) visitor.visit(tree);
             startProgram.PrintAst();
             System.out.println();
+            startProgram.GenCode();
             SymbolTable symbolTable=new SymbolTable();
             System.out.println("\u001b[34m"+symbolTable.PrintSymbolTable());
             System.out.println();

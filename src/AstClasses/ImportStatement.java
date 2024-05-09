@@ -28,4 +28,9 @@ public class ImportStatement {
             importFromBlock.PrintAst();
         }
     }
+    public void GenCode(){
+        if(importFromBlock!=null){
+            importFromBlock.GenCode();
+        }
+    }
 }

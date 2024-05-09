@@ -27,4 +27,10 @@ public class ImportFrom {
             System.out.print(stringLiteral+" ");
         }
     }
+    public void GenCode(){
+        if(stringLiteral!=null){
+            System.err.print("="+stringLiteral);
+
+        }
+    }
 }

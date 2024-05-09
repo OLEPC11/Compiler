@@ -22,6 +22,7 @@ public class ImportNamespace {
         this.as = as;
     }
 
+
     public void add(IdentifierName identifierName){
         identifierNames.add(identifierName);
     }
@@ -35,6 +36,14 @@ public class ImportNamespace {
                 else{
                 System.out.print(as+" ");
                 }
+            }
+        }
+    }
+    public void GenCode(){
+        if(identifierNames!=null){
+            for (IdentifierName identifierName : identifierNames) {
+                System.err.print("const ");
+                identifierName.GenCode();
             }
         }
     }
