@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Price Adjuster</title>
+<style>
+  /* Add some basic styling */
+  img { width: 200px; height: auto; float: left; }
+  button { margin-right: 10px; }
+</style>
+<script type="module" src="script2.js"></script>
+</head>
+<body>
+<div id="content"></div> <!-- Placeholder for dynamic content -->
+<p id="price">Current Price: $${item.price}</p>
+<button id="increase-button">Increase Price</button>
+<button id="decrease-button">Decrease Price</button>
+</body>
+</html>

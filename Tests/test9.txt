@@ -1,0 +1,8 @@
+ var [currentPrice, setCurrentPrice] = useState(item.price);
+ const increasePrice = () => {
+    setCurrentPrice(currentPrice + 200);
+  };
+
+  const decreasePrice = () => {
+    setCurrentPrice(Math.max(currentPrice - 200, 0));
+  };

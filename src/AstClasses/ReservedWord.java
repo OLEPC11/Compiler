@@ -1,0 +1,20 @@
+package AstClasses;
+
+import VisitParserTree.Node;
+
+public class ReservedWord extends Node {
+    Keyword keyword;
+
+    public Keyword getKeyword() {
+        return keyword;
+    }
+
+    public void setKeyword(Keyword keyword) {
+        this.keyword = keyword;
+    }
+    public void PrintAst(){
+        if(keyword!=null){
+            keyword.PrintAst();
+        }
+    }
+}
