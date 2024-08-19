@@ -1,6 +1,7 @@
 package AstClasses;
 
 import VisitParserTree.Node;
+import com.company.Main;
 
 import java.util.ArrayList;
 
@@ -54,20 +55,33 @@ public class ObjectLiteral extends Node {
     }
     StringBuilder stringBuilder1=new StringBuilder();
     String value1;
-    public String CodeGen(){
-        if(propertyAssignments!=null){
-            for(int i=0;i<propertyAssignments.size();i++){
-                if(i==propertyAssignments.size()-1){
-                    stringBuilder1.append(propertyAssignments.get(i).CodeGen());
+    StringBuilder stringBuilder2=new StringBuilder();
+    public String CodeGen() {
+        if (propertyAssignments != null) {
+            if (Main.index == 1) {
+                for (int i = 0; i < propertyAssignments.size(); i++) {
+                    if (i == propertyAssignments.size() - 1) {
+                        stringBuilder1.append(propertyAssignments.get(i).CodeGen());
+                    } else {
+                        stringBuilder1.append(propertyAssignments.get(i).CodeGen() + ",");
+                    }
                 }
-                else{
-                    stringBuilder1.append(propertyAssignments.get(i).CodeGen()+",");
+                value = "{" + stringBuilder1.toString() + "}\n";
+                return value;}
+
+            else {
+                for (int i = 0; i < propertyAssignments.size(); i++) {
+                    if (i == propertyAssignments.size() - 1) {
+                        stringBuilder2.append(propertyAssignments.get(i).CodeGen());
+                    } else {
+                        stringBuilder2.append(propertyAssignments.get(i).CodeGen() + ",");
+                    }
                 }
-            }
-            value1="{"+stringBuilder1.toString()+"}\n";
-            return value1;
-        }
-        else{
+                value = "{" + stringBuilder2.toString() + "}\n";
+                return value;
+            }}
+        else
+        {
             return "  ";
         }
     }

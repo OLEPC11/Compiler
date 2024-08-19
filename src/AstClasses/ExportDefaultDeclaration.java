@@ -54,6 +54,7 @@ public class ExportDefaultDeclaration extends ExportStatement{
             eos.PrintAst();
         }
     }
+
     public String CodeGen()
     {
         if (singleExpression!=null)

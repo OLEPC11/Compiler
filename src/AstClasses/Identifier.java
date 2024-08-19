@@ -26,7 +26,7 @@ public class Identifier extends Node {
             return "No Value";
         }
     }
-    public String CodeGen(){
+    public String  CodeGen(){
         if(identifier!=null){
             return identifier;
         }

@@ -50,19 +50,21 @@ public class ExpressionSequence extends Node {
             return "No Value";
         }
     }
-    StringBuilder stringBuilder1=new StringBuilder();
-    String value1;
+    StringBuilder stringBuilderGen=new StringBuilder();
+    String valueGen;
     public String CodeGen(){
         if(singleExpressions!=null){
             for (int i=0;i<singleExpressions.size();i++) {
                 if (i == singleExpressions.size() - 1) {
-                    stringBuilder1.append(singleExpressions.get(i).CodeGen());
+
+                    stringBuilderGen.append(singleExpressions.get(i).CodeGen());
                 } else {
-                    stringBuilder1.append(singleExpressions.get(i).CodeGen()+",");
+
+                    stringBuilderGen.append(singleExpressions.get(i).CodeGen()+",");
                 }
             }
-            value1=stringBuilder1.toString();
-            return value1;
+            valueGen=stringBuilderGen.toString();
+            return valueGen;
         }
         else {
             return "  ";

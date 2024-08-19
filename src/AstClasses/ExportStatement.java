@@ -29,6 +29,7 @@ public class ExportStatement extends Node {
             exportDefaultDeclaration.PrintAst();
         }
     }
+
     public String CodeGen()
     {
         if (exportDefaultDeclaration!=null)

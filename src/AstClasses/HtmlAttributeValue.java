@@ -51,7 +51,7 @@ public class HtmlAttributeValue extends Node {
         if(objectExpressionSequence!=null){
             return objectExpressionSequence.getValue();
         }
-        return "No Value";
+        return " ";
     }
     public String CodeGen(){
         if(StringLiteral!=null){

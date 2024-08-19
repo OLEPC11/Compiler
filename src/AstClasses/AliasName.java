@@ -39,15 +39,16 @@ public class AliasName extends Node {
             }
         }
     }
-    String s;
+    String string;
     public String getValue(){
-        if(identifierNames!=null)
-        {
-            for (int i=0;i<identifierNames.size();i++)
-            {
-                s+=identifierNames.get(i).getValue();
+        if(identifierNames!=null) {
+
+            for (int i=0;i<identifierNames.size();i++) {
+
+                string+=identifierNames.get(i).getValue();
             }
-            return  s;
+
+            return  string;
         }
         return "  ";
     }

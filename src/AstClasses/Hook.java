@@ -15,6 +15,7 @@ public class Hook extends SingleExpression {
             reactHook.PrintAst();
         }
     }
+
     public String CodeGen()
     {
         if (reactHook!=null)

@@ -21,22 +21,24 @@ public class ImportFrom extends Node {
     public void setStringLiteral(String stringLiteral) {
         this.stringLiteral = stringLiteral;
     }
-    public void PrintAst(){
-        if(from!=null){
-            System.out.print(from+" ");
-        }
-        if(stringLiteral!=null){
-            System.out.print(stringLiteral+" ");
-        }
-    }
-    public void GenCode(){
-        if(stringLiteral!=null){
-            System.err.print("="+stringLiteral);
 
+    public void PrintAst() {
+        if (from != null) {
+            System.out.print(from + " ");
+        }
+        if (stringLiteral != null) {
+            System.out.print(stringLiteral + " ");
         }
     }
-    public String CodeGen()
-    {
-        return stringLiteral +"\n";
+
+//    public void GenCode() {
+//        if (stringLiteral != null) {
+//            System.err.print("=" + stringLiteral);
+//
+//        }
+//    }
+
+    public String CodeGen() {
+        return stringLiteral + "\n";
     }
 }

@@ -72,6 +72,7 @@ public class Literal extends Node {
         return "No Value";
     }
 
+
     public String CodeGen(){
         if(NullLiteral!=null){
             return NullLiteral;

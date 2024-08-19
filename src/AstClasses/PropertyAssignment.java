@@ -65,6 +65,7 @@ public class PropertyAssignment extends Node {
             return "No Value";
         }
     }
+
     public String CodeGen(){
         if(propertyExpressionAssignment!=null){
             return propertyExpressionAssignment.CodeGen();

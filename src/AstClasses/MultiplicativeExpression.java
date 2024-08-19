@@ -51,6 +51,7 @@ public class MultiplicativeExpression extends SingleExpression{
             }
         }
     }
+
     StringBuilder stringBuilder=new StringBuilder();
     String value;
     public String getValue(){
@@ -61,6 +62,6 @@ public class MultiplicativeExpression extends SingleExpression{
             value=stringBuilder.toString();
             return value;
         }
-        return "No Value";
+        return "  ";
     }
 }

@@ -60,9 +60,6 @@ public class ReactHook extends Node {
         {
             return useStateHook.CodeGen();
         }
-        if(useEffectHook!=null){
-            return useEffectHook.CodeGen();
-        }
         return "  ";
     }
 }

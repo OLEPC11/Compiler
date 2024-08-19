@@ -270,7 +270,6 @@ public class SingleExpression extends Node {
         }
         return "No Value";
     }
-
     public String CodeGen() {
         if (htmlElementExpression != null) {
             return htmlElementExpression.CodeGen();
@@ -316,5 +315,4 @@ public class SingleExpression extends Node {
         }
         return "  ";
     }
-
 }

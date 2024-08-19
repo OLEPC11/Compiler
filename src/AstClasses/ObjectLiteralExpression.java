@@ -21,7 +21,6 @@ public class ObjectLiteralExpression extends SingleExpression {
         }
         return "No Value";
     }
-
     public String CodeGen(){
         if(objectLiteral!=null){
             return objectLiteral.CodeGen();

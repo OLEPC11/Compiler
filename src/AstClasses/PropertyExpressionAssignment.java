@@ -35,6 +35,7 @@ public class PropertyExpressionAssignment extends PropertyAssignment{
         }
         return "No Value";
     }
+
     public String CodeGen(){
         if (propertyName!=null&&singleExpression!=null)
         {

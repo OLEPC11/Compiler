@@ -1,6 +1,7 @@
 package AstClasses;
 
 import VisitParserTree.Node;
+import com.company.Main;
 
 public class Program extends Node {
 SourceElements sourceElements;
@@ -19,6 +20,12 @@ SourceElements sourceElements;
         }
     }
     public String CodeGen(){
-        return sourceElements.CodeGen();
+
+        if(Main.index==1){
+            return     "document.addEventListener('DOMContentLoaded',function() {\n"+sourceElements.CodeGen();
+        }
+        else {
+            return sourceElements.CodeGen();
+        }
     }
 }

@@ -75,6 +75,7 @@ public class AnoymousFunctionDecl extends AnoymousFunction {
         if(formalParameterList!=null&&functionBody!=null){
             return formalParameterList.CodeGen()+" "+functionBody.CodeGen();
         }
+
         return "  ";
     }
 }

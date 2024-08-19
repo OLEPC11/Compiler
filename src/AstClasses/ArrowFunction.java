@@ -40,6 +40,7 @@ public class ArrowFunction extends AnoymousFunction {
         return value+value1;
     }
     public String CodeGen(){
+
         if(arrowFunctionParameters!=null){
             value= arrowFunctionParameters.CodeGen();
         }

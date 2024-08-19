@@ -59,7 +59,8 @@ public class ReturnStatement extends Node {
         }
     return "No Value";
     }
-    String s1=" ", s2=" ";
+
+    String s1=" ",s2=" ";
     public String CodeGen(){
 
         if(expressionSequence!=null){

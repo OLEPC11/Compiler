@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4181817b-cf4c-4ad6-b4ca-69720c2c24af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Generator/Code.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generator/Gen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Test1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test9.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/AdditiveExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/AdditiveExpression.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/AliasName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/AliasName.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/AnoymousFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/AnoymousFunction.class" afterDir="false" />
@@ -16,12 +12,12 @@
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Arguments.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Arguments.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ArgumentsExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ArgumentsExpression.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ArrayElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ArrayElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ArrayLiteral.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ArrayLiteral.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ArrayLiteralExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ArrayLiteralExpression.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ArrowFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ArrowFunction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ArrowFunctionBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ArrowFunctionBody.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ArrowFunctionParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ArrowFunctionParameters.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Assignable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Assignable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/AssignmentExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/AssignmentExpression.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ElementList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ElementList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ExportDefaultDeclaration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ExportDefaultDeclaration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ExportStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ExportStatement.class" afterDir="false" />
@@ -33,7 +29,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/FunctionDecl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/FunctionDecl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/FunctionDeclaration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/FunctionDeclaration.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/FunctionExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/FunctionExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Height.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Height.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Hook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Hook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/HtmlAttribute.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/HtmlAttribute.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/HtmlAttributeName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/HtmlAttributeName.class" afterDir="false" />
@@ -46,7 +41,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/HtmlTagClosingName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/HtmlTagClosingName.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/HtmlTagName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/HtmlTagName.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/HtmlTagStartName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/HtmlTagStartName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Identifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Identifier.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/IdentifierExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/IdentifierExpression.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/IdentifierName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/IdentifierName.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ImportDefault.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ImportDefault.class" afterDir="false" />
@@ -54,14 +48,12 @@
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ImportFromBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ImportFromBlock.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ImportNamespace.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ImportNamespace.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ImportStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ImportStatement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Keyword.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Keyword.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/LastFormalParameterArg.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/LastFormalParameterArg.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Literal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Literal.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/LiteralExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/LiteralExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Margin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Margin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/MarginKay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/MarginKay.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/MemberDotExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/MemberDotExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ModuleItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ModuleItems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/MemberIndexExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/MemberIndexExpression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/MultiplicativeExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/MultiplicativeExpression.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/NumericLiteral.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/NumericLiteral.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ObjectExpressionSequence.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ObjectExpressionSequence.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ObjectLiteral.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ObjectLiteral.class" afterDir="false" />
@@ -70,23 +62,17 @@
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Program.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/PropertyAssignment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/PropertyAssignment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/PropertyExpressionAssignment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/PropertyExpressionAssignment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/PropertyName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/PropertyName.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ReactHook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ReactHook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ReturnStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/ReturnStatement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/SingleExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/SingleExpression.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/SourceElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/SourceElement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/SourceElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/SourceElements.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Statement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Statement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Style.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Style.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/UseEffectHook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/UseEffectHook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/UseStateHook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/UseStateHook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/VarModifier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/VarModifier.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/VariableDeclaration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/VariableDeclaration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/VariableDeclarationList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/VariableDeclarationList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/VariableStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/VariableStatement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Width.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/AstClasses/Width.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/SemanticError/Error.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/VisitParserTree/Visitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/VisitParserTree/Visitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Compiler For Season 1/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Compiler For Season 1/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/AdditiveExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/AdditiveExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/AliasName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/AliasName.java" afterDir="false" />
@@ -102,6 +88,7 @@
       <change beforePath="$PROJECT_DIR$/src/AstClasses/ArrowFunctionBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/ArrowFunctionBody.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/ArrowFunctionParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/ArrowFunctionParameters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/Assignable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/Assignable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AstClasses/AssignmentExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/AssignmentExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/ElementList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/ElementList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/ExportDefaultDeclaration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/ExportDefaultDeclaration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/ExportStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/ExportStatement.java" afterDir="false" />
@@ -113,7 +100,6 @@
       <change beforePath="$PROJECT_DIR$/src/AstClasses/FunctionDecl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/FunctionDecl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/FunctionDeclaration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/FunctionDeclaration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/FunctionExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/FunctionExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AstClasses/Height.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/Height.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/Hook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/HtmlAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/HtmlAttribute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/HtmlAttributeName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/HtmlAttributeName.java" afterDir="false" />
@@ -134,14 +120,13 @@
       <change beforePath="$PROJECT_DIR$/src/AstClasses/ImportFromBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/ImportFromBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/ImportNamespace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/ImportNamespace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/ImportStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/ImportStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AstClasses/Keyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/Keyword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/LastFormalParameterArg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/LastFormalParameterArg.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/Literal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/Literal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/LiteralExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/LiteralExpression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AstClasses/Margin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/Margin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AstClasses/MarginKay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/MarginKay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/MemberDotExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/MemberDotExpression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AstClasses/MemberIndexExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/MemberIndexExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/ModuleItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/ModuleItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AstClasses/MultiplicativeExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/MultiplicativeExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/NumericLiteral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/NumericLiteral.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/ObjectExpressionSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/ObjectExpressionSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/ObjectLiteral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/ObjectLiteral.java" afterDir="false" />
@@ -156,17 +141,12 @@
       <change beforePath="$PROJECT_DIR$/src/AstClasses/SingleExpression.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/SingleExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/SourceElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/SourceElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/SourceElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/SourceElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AstClasses/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/Statement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/Style.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/UseEffectHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/UseEffectHook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/UseStateHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/UseStateHook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/VarModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/VarModifier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/VariableDeclaration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/VariableDeclaration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AstClasses/VariableDeclarationList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/VariableDeclarationList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AstClasses/VariableStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/VariableStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AstClasses/Width.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AstClasses/Width.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SemanticError/Error.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VisitParserTree/Visitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VisitParserTree/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -219,16 +199,17 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\java projects\Compiler Projects\Compiler For Season 1\Tests\Out" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\java projects\Compiler Projects\Compiler For Season 1\src\Antlar" />
       <recent name="E:\java peojects\Compiler Projects\Compiler For Season 1\src\Antlar" />
       <recent name="E:\java peojects\Compiler Projects\Compiler For Season 1\src\Antlar\Antlar" />
       <recent name="E:\java peojects\Compiler Projects\Compiler For Season 1\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java projects\Compiler Projects\Compiler For Season 1\Tests\Out" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -373,6 +354,8 @@
       <workItem from="1723963803460" duration="615000" />
       <workItem from="1723988344273" duration="4438000" />
       <workItem from="1723994116392" duration="2201000" />
+      <workItem from="1724009619256" duration="9098000" />
+      <workItem from="1724082085982" duration="5892000" />
     </task>
     <servers />
   </component>

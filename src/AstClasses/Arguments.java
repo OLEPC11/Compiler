@@ -51,19 +51,19 @@ public class Arguments extends Node {
             return "No Value";
         }
     }
+    StringBuilder stringBuilderGen=new StringBuilder();
+    String valueGen;
     public String CodeGen(){
         if(arguments!=null){
             for (int i=0;i<arguments.size();i++) {
                 if (i == arguments.size() - 1) {
-                    stringBuilder.append(arguments.get(i).CodeGen());
+                    stringBuilderGen.append(arguments.get(i).CodeGen());
                 } else {
-
-                    stringBuilder.append(arguments.get(i).CodeGen()+",");
-
+                    stringBuilderGen.append(arguments.get(i).CodeGen()+",");
                 }
             }
-            value=stringBuilder.toString() ;
-            return value;
+            valueGen=stringBuilderGen.toString() ;
+            return valueGen;
         }
         else {
             return "    ";

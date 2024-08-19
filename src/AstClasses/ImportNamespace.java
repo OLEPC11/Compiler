@@ -41,6 +41,7 @@ public class ImportNamespace extends Node {
             }
         }
     }
+
     String s=" ";
     public String CodeGen(){
         if(identifierNames!=null)
@@ -59,5 +60,4 @@ public class ImportNamespace extends Node {
         }
         return "  ";
     }
-
 }

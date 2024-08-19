@@ -52,6 +52,7 @@ public class VarModifier extends Node {
         }
         return "No Value";
     }
+
     public String CodeGen(){
         if(Var!=null){
             return Var+" ";

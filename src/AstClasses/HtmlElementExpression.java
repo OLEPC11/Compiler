@@ -1,5 +1,7 @@
 package AstClasses;
 
+import com.company.Main;
+
 public class HtmlElementExpression extends SingleExpression{
     HtmlElements htmlElements;
 
@@ -25,8 +27,13 @@ public class HtmlElementExpression extends SingleExpression{
     }
     public String CodeGen(){
         if(htmlElements!=null){
-            return
-                    htmlElements.CodeGen();
+            if(Main.index==1)
+                return   "document.getElementById('content').innerHTML = `" +
+                        htmlElements.CodeGen();
+            else
+            {
+                return htmlElements.CodeGen();
+            }
         }
         else{
             return "  ";

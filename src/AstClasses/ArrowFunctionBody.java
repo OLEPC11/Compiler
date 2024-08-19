@@ -43,6 +43,7 @@ public class ArrowFunctionBody extends Node {
     }
     public String CodeGen(){
         String[] part= Main.useCase.split("\\.");
+
         if(singleExpression!=null){
             return singleExpression.CodeGen();
         }

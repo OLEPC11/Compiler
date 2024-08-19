@@ -35,6 +35,7 @@ public class ArgumentsExpression extends SingleExpression{
             return "No Value";
         }
     }
+
     public String CodeGen(){
         if(singleExpression!=null&&arguments!=null){
             if(singleExpression instanceof MemberDotExpression)

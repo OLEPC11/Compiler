@@ -51,7 +51,7 @@ public class AnoymousFunction extends Node {
         if(arrowFunction!=null){
             return arrowFunction.getValue();
         }
-        return "No Value";
+        return " ";
 
     }
 

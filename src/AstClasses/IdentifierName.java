@@ -34,9 +34,10 @@ public class IdentifierName extends Node {
             return identifier.getValue();
         }
         else{
-            return "No Value";
+            return " ";
         }
     }
+
     public String CodeGen(){
         if(identifier!=null){
             return identifier.CodeGen();

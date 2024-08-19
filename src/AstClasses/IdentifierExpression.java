@@ -19,8 +19,9 @@ public class IdentifierExpression extends SingleExpression {
         if(identifier!=null){
             return identifier.getValue();
         }
-        return "No Value";
+        return " ";
     }
+
     public String CodeGen(){
         if(identifier!=null){
             return identifier.CodeGen();

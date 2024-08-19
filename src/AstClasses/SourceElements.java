@@ -1,6 +1,7 @@
 package AstClasses;
 
 import VisitParserTree.Node;
+import com.company.Main;
 
 import java.util.ArrayList;
 
@@ -26,6 +27,8 @@ ArrayList<SourceElement>sourceElements=new ArrayList<>();
         }
     }
     StringBuilder stringBuilder=new StringBuilder();
+    StringBuilder stringBuilder2=new StringBuilder();
+    StringBuilder stringBuilder3=new StringBuilder();
     String value;
     public String getValue(){
         if(sourceElements!=null){
@@ -35,17 +38,25 @@ ArrayList<SourceElement>sourceElements=new ArrayList<>();
             value=stringBuilder.toString();
             return value;
         }
-        return "No Value";
+        return "    ";
     }
-    StringBuilder stringBuilder2=new StringBuilder();
-    String value2;
     public String CodeGen(){
         if(sourceElements!=null){
-            for (SourceElement sourceElement : sourceElements) {
-                stringBuilder2.append(sourceElement.CodeGen());
+            if(Main.index==0){
+                for (SourceElement sourceElement : sourceElements) {
+                    stringBuilder3.append(sourceElement.CodeGen());
+                }
+                value=stringBuilder3.toString();
+                return value;
+            }else {
+                // stringBuilder2.append("document.addEventListener('DOMContentLoaded', function() {\n");
+                for (SourceElement sourceElement : sourceElements) {
+                    stringBuilder2.append(sourceElement.CodeGen());
+                }
+                value=stringBuilder2.toString();
+                return value;
             }
-            value2=stringBuilder2.toString();
-            return value2;
+
         }
         return "  ";
     }

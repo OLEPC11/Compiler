@@ -57,20 +57,18 @@ public class HtmlAttributeName extends Node {
         }
         return " ";
     }
-    StringBuilder stringBuilder1=new StringBuilder();
-    String value1;
+    StringBuilder stringBuilderGen=new StringBuilder();
     public String CodeGen(){
         if(TagName!=null){
             return TagName+" ";
         }
         if(Identifiers!=null){
             for (int i=0;i<Identifiers.size();i++){
-                stringBuilder1.append(Identifiers.get(i));
+                stringBuilderGen.append(Identifiers.get(i));
             }
-            value1=stringBuilder1.toString();
-            return value1;
+            value=stringBuilderGen.toString();
+            return value;
         }
         return "  ";
     }
-
 }

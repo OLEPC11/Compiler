@@ -32,9 +32,10 @@ public class MemberDotExpression extends SingleExpression{
             return singleExpression.getValue() + " " + "." + " " + identifierName.getValue();
         }
         else{
-            return "No Value";
+            return " ";
         }
     }
+
     public String CodeGen(){
         if(singleExpression!=null&&identifierName!=null) {
             return singleExpression.CodeGen() + "." +  identifierName.CodeGen() ;

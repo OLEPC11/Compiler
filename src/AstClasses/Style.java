@@ -1,6 +1,7 @@
 package AstClasses;
 
 import VisitParserTree.Node;
+import com.company.Main;
 
 import java.util.ArrayList;
 
@@ -69,25 +70,67 @@ public class Style extends Node {
         System.out.print(" "+'}');
     }
     StringBuilder stringBuilder=new StringBuilder();
+//    public String getValue(){
+//
+//
+//       // stringBuilder.append(" {"+ " ");
+//        if(height!=null){
+//            stringBuilder.append(height.getValue());
+//        }
+//        stringBuilder.append(";");
+//        if(width!=null){
+//            stringBuilder.append(width.getValue()) ;
+//        }
+//        stringBuilder.append(";");
+//        if (marginArrayList!=null){
+//            for (Margin margin : marginArrayList) {
+//                stringBuilder.append(margin.getValue());
+//                stringBuilder.append(";");
+//            }
+//        }
+//       // stringBuilder.append(" "+"}");
+//        return stringBuilder.toString();
+//    }
+
+    StringBuilder stringBuilder1=new StringBuilder();
     public String getValue(){
 
-
-       // stringBuilder.append(" {"+ " ");
-        if(height!=null){
-            stringBuilder.append(height.getValue());
-        }
-        stringBuilder.append(";");
-        if(width!=null){
-            stringBuilder.append(width.getValue()) ;
-        }
-        stringBuilder.append(";");
-        if (marginArrayList!=null){
-            for (Margin margin : marginArrayList) {
-                stringBuilder.append(margin.getValue());
-                stringBuilder.append(";");
+        if(Main.index==0){
+            stringBuilder.append(" {"+ " ");
+            if(height!=null){
+                stringBuilder.append(height.getValue());
             }
+            stringBuilder.append(";");
+            if(width!=null){
+                stringBuilder.append(width.getValue()) ;
+            }
+
+            if (marginArrayList!=null){
+                for (Margin margin : marginArrayList) {
+                    stringBuilder.append(";");stringBuilder.append(margin.getValue());
+
+                }
+            }
+            stringBuilder.append(" "+"}");
+            return stringBuilder.toString();
         }
-       // stringBuilder.append(" "+"}");
-        return stringBuilder.toString();
+        else {
+            if(height!=null){
+                stringBuilder1.append(height.getValue());
+            }
+            stringBuilder1.append(";");
+            if(width!=null){
+                stringBuilder1.append(width.getValue()) ;
+            }
+
+            if (marginArrayList!=null){
+                for (Margin margin : marginArrayList) {
+                    stringBuilder1.append(";");stringBuilder1.append(margin.getValue());
+
+                }
+            }
+            //stringBuilder.append(" "+"}");
+            return stringBuilder1.toString();
+        }
     }
 }

@@ -116,17 +116,17 @@ public class HtmlElement extends Node {
     }
     String v = " ";
     StringBuilder stringBuilder2=new StringBuilder();
-
     public String CodeGen() {
 
         if (htmlTagStartName != null) {
 
             if (htmlTagStartName.getHtmlTagName().Identifier != null) {
                 if (!htmlTagStartName.getHtmlTagName().Identifier.equals("div")) {
-
-                    stringBuilder2.append("<");
-                    stringBuilder2.append(htmlTagStartName.CodeGen());
-                    stringBuilder2.append(">" + " ");
+                    if ((htmlTagStartName.getHtmlTagName().Identifier.equals("p") && htmlAttributes.size() == 0)||!htmlTagStartName.getHtmlTagName().Identifier.equals("p") ) {
+                        stringBuilder2.append("<");
+                        stringBuilder2.append(htmlTagStartName.CodeGen());
+                        stringBuilder2.append(">" + " ");
+                    }
                 }
             } else if (htmlTagStartName.htmlTagName.button != null) {
                 stringBuilder2.append("<");
@@ -143,6 +143,7 @@ public class HtmlElement extends Node {
         }
         if (htmlAttributes != null) {
 
+
             for (HtmlAttribute htmlAttribute : htmlAttributes) {
                 if (htmlAttribute.style == null) {
                     if (htmlTagName != null) {
@@ -152,7 +153,20 @@ public class HtmlElement extends Node {
                                 stringBuilder2.append(htmlAttribute.CodeGen());
                             }
                         }
-                    } else stringBuilder2.append("\"" + htmlAttribute.getValue() + "\"");
+                    } else {
+                        if (htmlTagStartName != null) {
+                            if (htmlTagStartName.htmlTagName != null) {
+                                if (htmlTagStartName.htmlTagName.Identifier != null) {
+                                    if (htmlTagStartName.htmlTagName.Identifier.equals("p")) {
+                                        stringBuilder2.append("<");
+                                        stringBuilder2.append("p " + htmlAttribute.getValue());
+                                        stringBuilder2.append(">" + " ");
+                                    }
+                                }else
+                                    stringBuilder2.append("\"" + htmlAttribute.getValue() + "\"");
+                            }
+                        }
+                    }
                 } else {
                     if (htmlTagName != null) {
                         if (htmlTagName.Identifier != null) {

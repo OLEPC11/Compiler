@@ -25,7 +25,7 @@ public class HtmlTagClosingName extends Node {
     }
     public String CodeGen(){
         if(htmlTagName!=null){
-            return htmlTagName.CodeGen();
+            return htmlTagName.CodeGen()+" ";
         }
         return "  ";
     }

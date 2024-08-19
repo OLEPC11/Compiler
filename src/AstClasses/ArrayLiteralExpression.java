@@ -19,7 +19,7 @@ public class ArrayLiteralExpression extends SingleExpression{
         if(arrayLiteral!=null){
            return arrayLiteral.getValue();
         }
-        return "No Value";
+        return " ";
     }
     public String CodeGen(){
         if(arrayLiteral!=null){

@@ -32,10 +32,7 @@ public class ImportStatement extends Node {
     }
     public String CodeGen() {
 
-
-
         if (importFromBlock != null) {
-
             if (importFromBlock.importNamespace != null)
                 if (importFromBlock.importNamespace.identifierNames != null) {
                     for (int i = 0; i < importFromBlock.importNamespace.identifierNames.size(); i++) {

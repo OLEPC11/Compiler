@@ -78,6 +78,7 @@ public class ImportFromBlock extends Node {
             eos.PrintAst();
         }
     }
+
     String s;
     String s2;
     String s3;

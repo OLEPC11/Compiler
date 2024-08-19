@@ -39,6 +39,6 @@ public class AssignmentExpression extends SingleExpression{
             value=stringBuilder.toString();
             return value;
         }
-        return "No Value";
+        return "  ";
     }
 }

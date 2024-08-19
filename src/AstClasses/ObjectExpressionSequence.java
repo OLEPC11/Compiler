@@ -26,6 +26,7 @@ public class ObjectExpressionSequence extends Node {
         }
         return "No Value";
     }
+
     public String CodeGen(){
         if (expressionSequence!=null){
             return "${"+expressionSequence.CodeGen()+"}";

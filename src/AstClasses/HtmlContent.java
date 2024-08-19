@@ -95,7 +95,7 @@ public class HtmlContent extends Node {
                     e++;
                 } else {
                     if (f) {
-                        stringBuilder.append(");}\n" + "!DOCTYPE html>\n" +
+                        stringBuilder.append("  `;});\n" + "!DOCTYPE html>\n" +
                                 "<html lang=\"en\">\n" +
                                 "<head>\n" +
                                 "<meta charset=\"UTF-8\">\n" +
@@ -103,7 +103,7 @@ public class HtmlContent extends Node {
                                 "<script type=\"module\" src=\"script2.js\"></script>\n" +
                                 "</head>\n" +
                                 "<body>\n" +
-                                "<div id=\"content\"></div> <!-- Placeholder for dynamic content -->\n");
+                                "<div id=\"content\"></div>\n");
                         f = false;
                     }
                     stringBuilder.append(htmlElement.CodeGen());
@@ -126,6 +126,7 @@ public class HtmlContent extends Node {
             stringBuilder.toString();
 
         }
+
         return stringBuilder.toString();
     }
 }

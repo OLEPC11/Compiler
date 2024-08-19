@@ -37,6 +37,7 @@ public class VariableStatement extends Node {
         }
        return "No Value";
     }
+
     public String CodeGen(){
         if(variableDeclarationList!=null){
             return variableDeclarationList.CodeGen();

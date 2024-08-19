@@ -23,6 +23,7 @@ public class LiteralExpression extends SingleExpression {
             return "No Value";
         }
     }
+
     public String CodeGen(){
         if(literal!=null){
             return literal.CodeGen();

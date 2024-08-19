@@ -57,14 +57,16 @@ public class HtmlAttribute extends Node {
 //        }
 //        SymbolTable.list.add(symbol);
 //    }
-    public String getValue(){
-        if(htmlAttributeName!=null&&htmlAttributeValue!=null){
-            return htmlAttributeName.getValue()+"="+htmlAttributeValue.getValue();
-        }
-        else{
-            return " ";
-        }
+public String getValue() {
+    if (htmlAttributeName != null && htmlAttributeValue != null) {
+        if (!htmlAttributeName.CodeGen().equals("onClick")) {
+            return htmlAttributeName.getValue() +"="+htmlAttributeValue.getValue();
+        } else return htmlAttributeValue.getValue();
+    } else {
+        return "    ";
     }
+}
+
     public String CodeGen() {
         if (htmlAttributeName != null && htmlAttributeValue != null) {
             if (!htmlAttributeName.CodeGen().equals("onClick"))

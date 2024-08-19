@@ -59,6 +59,7 @@ public class UseStateHook extends Node {
         }
         return "No Value";
     }
+
     public String CodeGen(){
         if (singleExpression!=null)
         {

@@ -1,5 +1,7 @@
 package AstClasses;
 
+import com.company.Main;
+
 public class MemberIndexExpression extends SingleExpression{
     SingleExpression singleExpression;
     ExpressionSequence expressionSequence;
@@ -37,5 +39,12 @@ public class MemberIndexExpression extends SingleExpression{
            return "["+ " "+expressionSequence.getValue()+" "+"]";
         }
         return "No Value";
+    }
+    public String CodeGen(){
+        if(singleExpression.identifierExpression!=null){
+            return singleExpression.identifierExpression.CodeGen()+"["+ Main.useCase+"]"+");" ;
+        }
+
+        return "  ";
     }
 }

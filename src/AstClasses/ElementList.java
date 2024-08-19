@@ -1,6 +1,7 @@
 package AstClasses;
 
 import VisitParserTree.Node;
+import com.company.Main;
 
 import java.util.ArrayList;
 
@@ -52,8 +53,7 @@ public class ElementList  extends Node {
         }
     }
 
-    StringBuilder stringBuilder1 = new StringBuilder();
-    String value1;
+
 
     //    public String CodeGen() {
 //        if (arrayElements != null) {
@@ -70,16 +70,63 @@ public class ElementList  extends Node {
 //            return " ";
 //        }
 //    }
-    StringBuilder stringBuilder2 = new StringBuilder();
-    String value2 = " ";
+//    StringBuilder stringBuilder2 = new StringBuilder();
+//    String value2 = " ";
+//
+//    public String CodeGen() {
+//        if (arrayElements != null) {
+//            stringBuilder2.append(arrayElements.get(0).CodeGen());
+//            value2 = stringBuilder2.toString();
+//            return value2;
+//        } else {
+//            return "  ";
+//        }
+//    }
 
-    public String CodeGen() {
-        if (arrayElements != null) {
-            stringBuilder2.append(arrayElements.get(0).CodeGen());
-            value2 = stringBuilder2.toString();
-            return value2;
-        } else {
-            return "  ";
+    StringBuilder stringBuilder1=new StringBuilder();
+    String value1=" ";
+    StringBuilder stringBuilder2= new StringBuilder();
+    String value2;
+    public String CodeGen(){
+
+        if(!(arrayElements.get(0).singleExpression instanceof ObjectLiteralExpression)){
+            if(Main.index==1){
+                if(arrayElements!=null){
+                    stringBuilder2.append( arrayElements.get(0).CodeGen());
+                    value1=stringBuilder2.toString();
+                    return value1;
+                }
+                else {
+                    return "  ";
+                }}
+            else {
+                if(arrayElements!=null){
+                    stringBuilder1.append( arrayElements.get(0).CodeGen());
+                    value1=stringBuilder1.toString();
+                    return value1;
+                } else {
+                    return "  ";
+                }
+            }
+        }
+        else{
+            if(Main.index==0){
+                if(arrayElements!=null){
+                    for (int i=0;i<arrayElements.size();i++) {
+                        if (i == arrayElements.size() - 1) {
+                            stringBuilder1.append(arrayElements.get(i).CodeGen()).append("\n");
+                        } else {
+                            stringBuilder1.append(arrayElements.get(i).CodeGen()+",").append("\n");
+                        }
+                    }
+                    value="["+stringBuilder1.toString()+"]\n";
+                    return value;
+                }else {
+                    return "    ";
+                }}
+            else {
+                return "    ";
+            }
         }
     }
 

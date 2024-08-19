@@ -64,18 +64,19 @@ public class HtmlTagName extends Node {
         return " No Name";
     }
     public String CodeGen(){
+
         if(getIdentifier()!=null)
         {
-            return getIdentifier()+" ";
+            return  getIdentifier()+" ";
         }
         if(TagName!=null){
             return TagName+" ";
         }
         if(keyword!=null){
-            return keyword.CodeGen();
+            return keyword.CodeGen()+" ";
         }
         if(button!=null){
-            return button;
+            return button+" ";
         }
         return "  ";
     }

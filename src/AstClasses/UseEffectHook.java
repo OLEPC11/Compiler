@@ -55,14 +55,14 @@ public class UseEffectHook extends Node {
         return "No Value";
     }
 
-    public String CodeGen(){
-        if (expressionSequences!=null){
-            return "window.addEventListener('load', () => {\n" +
-                    "    console.log("+expressionSequences.get(0).CodeGen()+");" +
-                    "  });";
-        }
-        else return " ";
-    }
+//    public String CodeGen(){
+//        if (expressionSequences!=null){
+//            return "window.addEventListener('load', () => {\n" +
+//                    "    console.log("+expressionSequences.get(0).CodeGen()+");" +
+//                    "  });";
+//        }
+//        else return " ";
+//    }
 }
 //    public void AddToSymbolTable(){
 //        Symbol symbol=new Symbol();

@@ -36,6 +36,7 @@ public class HtmlChardata extends Node {
         s=s1.toString();
         return s;
     }
+
     public String CodeGen()
     {
         if(strings!=null){

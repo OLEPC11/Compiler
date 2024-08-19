@@ -25,10 +25,11 @@ public class SourceElement  extends Node {
         }
         return " ";
     }
+
     public String CodeGen(){
         if (statement!=null){
             return statement.CodeGen();
         }
-        return "  ";
+        return "    ";
     }
 }

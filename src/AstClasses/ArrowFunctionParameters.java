@@ -46,9 +46,6 @@ public class ArrowFunctionParameters extends Node {
         if(identifier!=null){
             return identifier.CodeGen();
         }
-//        if(formalParameterList!=null){
-//            return "("+formalParameterList.CodeGen()+")";
-//        }
         else{
             return " () ";}
     }

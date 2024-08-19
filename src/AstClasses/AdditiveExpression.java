@@ -1,7 +1,6 @@
 package AstClasses;
 
 import com.company.Main;
-
 import java.util.ArrayList;
 
 public class AdditiveExpression extends SingleExpression{
@@ -66,28 +65,33 @@ public class AdditiveExpression extends SingleExpression{
         }
         return "No Value";
     }
+
+    StringBuilder stringBuilderGen=new StringBuilder();
+    String valueGen;
     public String CodeGen(){
         if(singleExpressions!=null){
             for(int i=0;i<singleExpressions.size();i++){
-                stringBuilder.append(singleExpressions.get(i).CodeGen());
+                stringBuilderGen.append(singleExpressions.get(i).CodeGen());
                 if(i==singleExpressions.size()-1){
                     System.out.print("");
                 }
                 else{
                     if(plus!=null){
-                        stringBuilder.append(" + ");
+                        stringBuilderGen.append(" + ");
                     }
                     else if(sub!=null){
-                        stringBuilder.append("- ");
+                        stringBuilderGen.append(" - ");
                     }
                 }
-
             }
             if(singleExpressions.get(0).CodeGen()!=null){
-                value= stringBuilder.toString();
-                return value;
+
+                valueGen= stringBuilderGen.toString();
+
+                return valueGen;
             }
         }
         return "    ";
     }
+
 }

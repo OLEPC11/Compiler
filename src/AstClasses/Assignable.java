@@ -54,7 +54,6 @@ public class Assignable extends Node {
         }
         return "No Value";
     }
-
     public String CodeGen(){
 
         if(identifier!=null){
