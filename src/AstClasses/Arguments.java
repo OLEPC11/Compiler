@@ -53,7 +53,7 @@ public class Arguments extends Node {
         }
     }
     public String CodeGen(){
-        String[] part= Main.usecase.split("\\.");
+        String[] part= Main.useCase.split("\\.");
 
         if(arguments!=null){
             for (int i=0;i<arguments.size();i++) {

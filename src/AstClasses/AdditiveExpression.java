@@ -37,7 +37,7 @@ public class AdditiveExpression extends SingleExpression{
     }
     public void PrintAst(){
         if(singleExpressions!=null){
-            Main.c=singleExpressions.get(0).CodeGen();
+            Main.currentPrice=singleExpressions.get(0).CodeGen();
             for(int i=0;i<singleExpressions.size();i++){
                 singleExpressions.get(i).PrintAst();
                 if(i==singleExpressions.size()-1){
@@ -88,7 +88,7 @@ public class AdditiveExpression extends SingleExpression{
                 }
 
             }
-String[] part= Main.usecase.split("\\.");
+String[] part= Main.useCase.split("\\.");
 
             if(singleExpressions.get(0).CodeGen()!=null){
 

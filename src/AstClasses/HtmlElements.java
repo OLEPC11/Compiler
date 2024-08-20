@@ -100,7 +100,7 @@ public class HtmlElements extends Node {
                                                                     "    if (selectedProduct) {\n" +
                                                                     "        render" + htmlElement2.htmlTagName.Identifier + "(selectedProduct); \n" +
                                                                     "    }\n" +
-                                                                    "});\n renderProductView(" + s + "[" + Main.usecase + "]);\n"
+                                                                    "});\n renderProductView(" + s + "[" + Main.useCase + "]);\n"
                                                             );
                                                     }
                                     }

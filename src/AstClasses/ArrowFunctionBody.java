@@ -43,13 +43,13 @@ public class ArrowFunctionBody extends Node {
         return "    ";
     }
     public String CodeGen(){
-        String[] part= Main.usecase.split("\\.");
+        String[] part= Main.useCase.split("\\.");
 
         if(singleExpression!=null){
             return singleExpression.CodeGen();
         }
         if(functionBody!=null){
-            return "\n{"+ Main.c+" = "+functionBody.CodeGen()+ ";\ndocument.getElementById('"+part[1]+"').textContent = `Current Price: $${"+Main.c+"}`;}"+"\n";
+            return "\n{"+ Main.currentPrice+" = "+functionBody.CodeGen()+ ";\ndocument.getElementById('"+part[1]+"').textContent = `Current Price: $${"+Main.currentPrice+"}`;}"+"\n";
         }
         return "   ";
     }

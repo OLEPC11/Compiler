@@ -43,7 +43,7 @@ public class MemberIndexExpression extends SingleExpression{
     }
    public String CodeGen(){
         if(singleExpression.identifierExpression!=null){
-            return singleExpression.identifierExpression.CodeGen()+"["+ Main.usecase+"]"+");" ;
+            return singleExpression.identifierExpression.CodeGen()+"["+ Main.useCase+"]"+");" ;
         }
 
         return "  ";

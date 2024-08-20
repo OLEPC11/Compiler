@@ -40,7 +40,7 @@ public class UseStateHook extends Node {
         }
         if (singleExpression != null) {
             singleExpression.PrintAst();
-            Main.usecase=singleExpression.CodeGen();
+            Main.useCase=singleExpression.CodeGen();
         }
         if(eos!=null){
             eos.PrintAst();

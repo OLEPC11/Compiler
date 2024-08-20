@@ -18,8 +18,8 @@ import static org.antlr.v4.runtime.CharStreams.fromFileName;
 
 public class Main {
     public static SymbolTable symbolTable = new SymbolTable();
-public static String usecase=" ";
-public static String c=" ";
+public static String useCase=" ";
+public static String currentPrice=" ";
 public static String export=" ";
 public static int index=0;
     public static void main(String[] args) {
