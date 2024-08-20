@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link >
+    <style>
+        /* Add some basic styling */
+        img { width: 200px; height: 200px; margin-left: 500px; margin-right: 100px; } 
+        button { margin-left: 10px; margin-top: 200px; width: 80px; height: 100px;}
+      </style>
+</head>
+<body>
+      <div id="productList">
+            <!-- ProductList items will be dynamically added here -->
+        </div>
+        <div id="productView" style="height: 200px;width: 500px; ">
+            <!-- ProductView content will be dynamically updated here -->
+        </div>
+    </div>
+    <button id="goToSecondScreen">Go to Second Screen</button>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>

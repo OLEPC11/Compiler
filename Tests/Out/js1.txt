@@ -1,0 +1,59 @@
+
+const meatImage="images/roof.png";
+const fruitImage="images/game.png";
+const vegetableImage="images/Top.png";
+const chickenImage="images/Botton .png";
+
+// Define the products array
+const products = [
+    { id: 1, name: "meat", details: "Meat is a vital source of protein...", url: meatImage },
+    { id: 2, name: "fruit", details: "Fruits are a vital part of our diet...", url: fruitImage },
+    { id: 3, name: "vegetable", details: "Vegetables are a vital part of a healthy diet...", url: vegetableImage },
+    { id: 4, name: "chicken", details: "Chicken is a versatile and widely consumed type of meat...", url: chickenImage },
+];
+
+// Function to render the ProductList
+function renderProductList() {
+    const productList = document.getElementById('productList');
+    productList.innerHTML = ''; // Clear the list
+    products.forEach(product => {
+        const listItem = document.createElement('div');
+        listItem.textContent = product.name;
+        productList.appendChild(listItem);
+    });
+}
+
+// Function to render the ProductView
+function renderProductView(product) { // Accept a product object as an argument
+    const productView = document.getElementById('productView');
+    productView.innerHTML = ''; // Clear the view
+    productView.innerHTML = `
+        <h2>${product.name}</h2>
+        <p>${product.details}</p>
+        <img src="${product.url}" alt="${product.name}">
+    `;
+}
+
+// Initial render
+renderProductList();
+renderProductView(products[0]); // Start displaying from the second item
+
+// Event listener to update the product view when a product is selected
+document.getElementById('productList').addEventListener('click', function(event) {
+    const selectedProduct = products.find(product => product.name === event.target.textContent);
+    if (selectedProduct) {
+        renderProductView(selectedProduct); // Correctly pass the selected product to the function
+    }
+});
+// Function to navigate to the second screen
+function goToSecondScreen() {
+    window.location.href = 'index2.html'; // Adjust the path according to your project structure
+}
+
+// Attach the click event listener to the button
+document.getElementById('goToSecondScreen').addEventListener('click', goToSecondScreen);
+//Use Effect 
+window.addEventListener('load', () => {
+    console.log("Welcome");
+  });
+  

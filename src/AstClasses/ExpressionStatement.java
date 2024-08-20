@@ -1,0 +1,45 @@
+package AstClasses;
+
+import VisitParserTree.Node;
+
+public class ExpressionStatement extends Node {
+    ExpressionSequence expressionSequence;
+    Eos eos;
+
+    public ExpressionSequence getExpressionSequence() {
+        return expressionSequence;
+    }
+
+    public void setExpressionSequence(ExpressionSequence expressionSequence) {
+        this.expressionSequence = expressionSequence;
+    }
+
+    public Eos getEos() {
+        return eos;
+    }
+
+    public void setEos(Eos eos) {
+        this.eos = eos;
+    }
+    public void PrintAst(){
+       // setScopeID(getCurrentScope().getId());
+        if(expressionSequence!=null){
+            expressionSequence.PrintAst();
+        }
+        if(eos!=null){
+            eos.PrintAst();
+        }
+    }
+    public String getValue(){
+        if(expressionSequence!=null){
+          return   expressionSequence.getValue();
+        }
+       return "    ";
+    }
+    public String CodeGen(){
+        if(expressionSequence!=null){
+            return   expressionSequence.CodeGen();
+        }
+        return "  ";
+    }
+}

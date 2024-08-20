@@ -1,0 +1,44 @@
+import React, { useState } from 'react';
+
+const item = {
+  id: 1,
+  title: 'Example Item',
+  description: 'This is an example item.',
+  price: 500
+};
+
+
+function PriceAdjuster() {
+  var [currentPrice, setCurrentPrice] = useState(item.price);
+
+  const increasePrice = () => {
+    setCurrentPrice(currentPrice + 100);
+  };
+
+  const decreasePrice = () => {
+    setCurrentPrice(Math.max(currentPrice - 100, 0));
+  };
+
+  return (
+    <div>
+      <h2>{item.title}</h2>
+      <img src="images/game.bmp" alt={item.title}
+      style={ height= "100px", width= "100vh", margin-left= "100px",margin-right= "100px" } />
+      <p>{item.description}</p>
+
+      <p id="price">Current Price: ${currentPrice}</p>
+
+      <button onClick={increasePrice}
+      style={ height= "100px", width= "100vh", margin-left= "100px",margin-right= "100px" }>
+      Increase Price
+      </button>
+      <button onClick={decreasePrice} style={ height= "100px", width= "100vh", margin-left= "100px",margin-right= "100px" }>
+      Decrease Price
+      </button>
+    </div>
+  );
+}
+
+export default PriceAdjuster;
+
+

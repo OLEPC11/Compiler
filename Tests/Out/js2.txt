@@ -1,0 +1,32 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const item = {
+      id: 1,
+      title: 'Example Item',
+      description: 'This is an example item.',
+      price: 500
+    };
+  
+    let currentPrice = item.price;
+  
+    document.getElementById('price').textContent = `Current Price: $${currentPrice}`;
+  
+    function increasePrice() {
+      currentPrice += 100;
+      document.getElementById('price').textContent = `Current Price: $${currentPrice}`;
+    }
+
+    function decreasePrice() {
+      currentPrice = Math.max(currentPrice - 100, 0); 
+      document.getElementById('price').textContent = `Current Price: $${currentPrice}`;
+    }
+  
+    document.querySelector('#increase-button').addEventListener('click', increasePrice);
+    document.querySelector('#decrease-button').addEventListener('click', decreasePrice);
+  
+    // Ensure the content is inserted after the DOM is fully loaded
+    document.getElementById('content').innerHTML = `
+      <h2>${item.title}</h2>
+      <img src="images/Botton .png" alt="${item.title}" />
+      <p>${item.description}</p>
+    `;
+  });

@@ -1,0 +1,65 @@
+package AstClasses;
+
+import SymbolTable.Symbol;
+import SymbolTable.SymbolTable;
+import VisitParserTree.Node;
+
+public class FormalParameterArg extends Node {
+    Assignable assignable;
+    SingleExpression singleExpression;
+
+    public Assignable getAssignable() {
+        return assignable;
+    }
+
+    public void setAssignable(Assignable assignable) {
+        this.assignable = assignable;
+    }
+
+    public SingleExpression getSingleExpression() {
+        return singleExpression;
+    }
+
+    public void setSingleExpression(SingleExpression singleExpression) {
+        this.singleExpression = singleExpression;
+    }
+    public void PrintAst(){
+       // setScopeID(getCurrentScope().getId());
+        if(assignable!=null){
+            assignable.PrintAst();
+        }
+        if(singleExpression!=null){
+            System.out.print("="+" ");
+            singleExpression.PrintAst();
+        }
+        //AddToSymbolTable();
+    }
+    public String getValue(){
+        if(assignable!=null){
+            return assignable.getValue();
+        }
+        if(singleExpression!=null){
+            return singleExpression.getValue();
+        }
+        return "    ";
+    }
+    public String CodeGen(){
+        if(assignable!=null){
+            return assignable.CodeGen();
+        }
+        if(singleExpression!=null){
+            return singleExpression.CodeGen();
+        }
+        return "  ";
+    }
+//    public void AddToSymbolTable(){
+//        Symbol symbol=new Symbol();
+//        if(assignable!=null){
+//            symbol.setName(assignable.getValue());
+//        }
+//        if(singleExpression!=null){
+//            symbol.setValue(singleExpression.getValue());
+//        }
+//        SymbolTable.list.add(symbol);
+//    }
+}

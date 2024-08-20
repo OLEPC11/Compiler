@@ -1,0 +1,61 @@
+package AstClasses;
+
+import VisitParserTree.Node;
+
+import java.util.ArrayList;
+
+public class ImportNamespace extends Node {
+    String as;
+    ArrayList<IdentifierName> identifierNames=new ArrayList<>();
+
+    public ArrayList<IdentifierName> getIdentifierNames() {
+        return identifierNames;
+    }
+
+    public void setIdentifierNames(ArrayList<IdentifierName> identifierNames) {
+        this.identifierNames = identifierNames;
+    }
+
+    public String getAs() {
+        return as;
+    }
+
+    public void setAs(String as) {
+        this.as = as;
+    }
+
+    public void add(IdentifierName identifierName){
+        identifierNames.add(identifierName);
+    }
+    public void PrintAst(){
+        //setScopeID(getCurrentScope().getId());
+        if(identifierNames!=null){
+            for (int i=0;i<identifierNames.size();i++) {
+                identifierNames.get(i).PrintAst();
+                if(i==identifierNames.size()-1){
+                    System.out.print(" ");
+                }
+                else{
+                System.out.print(as+" ");
+                }
+            }
+        }
+    } String s=" ";
+    public String CodeGen(){
+        if(identifierNames!=null)
+        {
+            for (int i=0;i<identifierNames.size();i++)
+            {
+                if (identifierNames.get(i).CodeGen()==null)
+                {
+                    continue;
+                }
+                else {
+                    s+=identifierNames.get(i).CodeGen();
+                }
+            }
+            return  s;
+        }
+        return "  ";
+    }
+}
